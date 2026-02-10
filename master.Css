@@ -1,0 +1,222 @@
+
+body{
+   background-color: rgb(241 220 159); 
+}
+.special{
+    background-color:rgb(193 154 107 / 30%);
+    color: rgb(197, 168, 4);
+    font-size: 2rem;
+    padding: 10px;
+    width: calc(50% - 50px);
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: rgb(255 226 139);
+    border-style: groove ;
+    text-align: center;
+    display: grid;
+    place-items: center; 
+}
+    
+.element{
+    color:salmon;
+    font-size: 40px;
+    margin-left: 6%;
+    
+}
+
+.boo{
+    color:rgb(107 41 41) ;
+    font-size: 40px;
+    padding: 10px 10px 10px 300px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 5px;
+    border-color: rgb(255 226 139);
+    border-style: groove ;
+    
+}
+
+.first-edition{
+    background-color:rgb(236 209 129 / 74%);
+    background-image: url("../imgs/Bookyell.jpg");
+    background-repeat:no-repeat ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: left top;
+    margin-bottom: 10px;
+}
+
+.signature {
+  position: fixed;
+  bottom: 15px;
+  left: 30px;
+  font-family: "Brush Script MT", cursive;
+  font-size: 28px;
+  color: rgb(107, 41, 41);
+  opacity: 0.7;
+  
+}
+
+.special:hover {
+  color:rgb(255, 198, 27);; 
+  font-size: 2.2rem;
+  transition: color 0.3s, font-size 0.3s; 
+}
+
+.edition-list{
+     background-color:rgb(193 154 107);
+     margin-left: auto;
+     margin-right: auto;
+     border-color: rgb(196 153 21);
+     border-radius:100px ;
+     border-width: 7px;
+     border-style: ridge;
+     display: flex;
+     justify-content: space-evenly;
+     
+}
+.Login-in{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+margin: auto;
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+.See-Offers{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+.Your-list{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+.More-info{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+.Contact-us{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+.Buy-Now{
+background-color: rgb(222 184 135);
+border-radius:100px ;
+border-width: 5px;
+border-style: ridge;
+border-color:rgb(150 100 50);
+padding: 5px 10px;
+color:rgb(90 40 10);
+font-size: 20px;
+}
+h2{
+    color:rgb(86 52 16) ;
+}
+.adva{
+     background-color:rgb(193 154 107);
+     margin-left: auto;
+     margin-right: auto;
+     border-color: rgb(196 153 21);
+     border-radius:60px ;
+     border-width: 7px;
+     border-style:double;
+     padding: 10px 20px;
+     font-family: 'Times New Roman', Times, serif;
+     display: flex;
+     flex-direction: column;
+     gap:5px;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     
+     
+     
+}
+.Inspiration{
+    background-color:rgb(226 185 143) ;
+    width: 50%;
+    margin:auto;
+    padding: 15px;
+    color: rgb(0 0 0);
+    font-size: 1.2rem;
+    border-radius:100px ;
+    border-color:rgb(150 100 60) ;
+    border-width:5px ;
+    border-style:groove ;
+    grid-column: 1 / 3;
+    
+    
+
+}
+.Craftsmanship{
+background-color:rgb(226 185 143) ;
+    width: 50%;
+    margin:auto;
+    padding: 15px;
+    color: rgb(0 0 0);
+    font-size: 1.2rem;
+    border-radius:100px ;
+    border-color:rgb(150 100 60) ;
+    border-width:5px ;
+    border-style:groove ;
+    grid-column: 2 / 4;
+    
+}
+.Exclusivity{
+background-color:rgb(226 185 143) ;
+    width: 50%;
+    margin:auto;
+    padding: 15px;
+    color: rgb(0 0 0);
+    font-size: 1.2rem;
+    border-radius:100px ;
+    border-color:rgb(150 100 60) ;
+    border-width:5px ;
+    border-style:groove ;
+     grid-column: 3 / 5;
+    
+}
+.Inspiration:hover {
+  color:rgb(241 136 41);; 
+  font-size: 1.3rem;
+  transition: color 0.3s, font-size 0.3s; 
+  
+}
+.Craftsmanship:hover {
+  color:rgb(241 136 41);; 
+  font-size: 1.3rem;
+  transition: color 0.3s, font-size 0.3s; 
+}
+.Exclusivity:hover {
+  color:rgb(241 136 41);; 
+  font-size: 1.3rem;
+  transition: color 0.3s, font-size 0.3s; 
+}
